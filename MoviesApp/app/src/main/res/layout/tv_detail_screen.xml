@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#393939"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:background="#696969">
+
+            <ImageButton
+                android:id="@+id/tv_detail_screen_home_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#393939"
+                android:padding="6dp"
+                android:src="@drawable/ic_home_black_24dp" />
+
+
+            <TextView
+                android:id="@+id/tv_detail_screen_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:layout_toEndOf="@+id/tv_detail_screen_home_btn"
+                android:layout_toStartOf="@+id/tv_detail_screen_back_btn"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="26sp" />
+
+
+            <ImageButton
+                android:id="@+id/tv_detail_screen_back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:background="#393939"
+                android:padding="6dp"
+                android:src="@drawable/ic_arrow_back_black_24dp" />
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/tv_detail_screen_poster"
+            android:layout_width="180dp"
+            android:layout_height="250dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="36dp" />
+
+
+
+        <RatingBar
+            android:id="@+id/tv_detail_screen_rating"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_detail_screen_poster"
+            android:layout_marginStart="17dp"
+            android:layout_toEndOf="@+id/tv_detail_screen_poster"
+            android:isIndicator="true"
+            android:numStars="10"
+            android:progressTint="#ffd633"
+            android:rating="0"
+            android:secondaryProgressTint="#ffd633"
+            android:stepSize="0.1" />
+
+        <TextView
+            android:id="@+id/tv_detail_screen_vote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_detail_screen_rating"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/tv_detail_screen_rating"
+            android:textColor="#fff"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_detail_screen_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tv_detail_screen_rating"
+            android:layout_below="@+id/tv_detail_screen_rating"
+            android:layout_marginTop="15dp"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_detail_screen_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tv_detail_screen_date"
+            android:layout_below="@+id/tv_detail_screen_date"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_detail_screen_bomi_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tv_detail_screen_language"
+            android:layout_below="@+id/tv_detail_screen_language"
+            android:layout_marginTop="25dp"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/tv_detail_screen_bomi_pic"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignStart="@+id/tv_detail_screen_bomi_review"
+            android:layout_below="@+id/tv_detail_screen_bomi_review"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/bomibot33" />
+
+
+        <TextView
+            android:id="@+id/tv_detail_screen_overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tv_detail_screen_poster"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/tv_share_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_detail_screen_overview"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/share_btn" />
+
+    </RelativeLayout>
+
+</ScrollView>

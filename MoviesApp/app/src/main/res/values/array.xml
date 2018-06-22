@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bomiFrases">
+        <item>@string/bomi1</item>
+        <item>@string/bomi2</item>
+        <item>@string/bomi3</item>
+        <item>@string/bomi4</item>
+        <item>@string/bomi5</item>
+        <item>@string/bomi6</item>
+        <item>@string/bomi7</item>
+    </string-array>
+</resources>

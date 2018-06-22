@@ -1,0 +1,41 @@
+<resources>
+
+    <string name="textLanguage">pt-PT</string>
+
+    <string name="welcome_text">Bem-vindo ao</string>
+    <string name="continue_text">A melhor fonte para fanáticos de Filmes e Séries!
+    Por favor carregua no botão "Continuar" e aceita as permissões para que possas aceder e partilhar
+    tudo sobre os teus momentos preferidos do grande ecrã!</string>
+    <string name="main_menu">Escolhe uma categoria!</string>
+
+    <string name="app_name">PANDAMOVIES</string>
+    <string name="online">Ligação estabelecida</string>
+    <string name="offline">Sem ligação à Internet</string>
+
+    <string name="share_m_1">"O filme "</string>
+    <string name="share_m_2">" tem a classificação de "</string>
+    <string name="share_m_3">" estrelas!"</string>
+    <string name="share_t_1">"O filme "</string>
+    <string name="share_t_2">" tem a classificação de "</string>
+    <string name="share_t_3">" estrelas!"</string>
+
+    <string name="share_btn">PARTILHAR</string>
+    <string name="release_date">"Estreou a: "</string>
+    <string name="og_language">"Lingua Original: "</string>
+    <string name="updated">Última Actualização:</string>
+    <string name="refresh">Conteúdo actualizado</string>
+
+    <string name="movies">FILMES</string>
+    <string name="tv">SÉRIES</string>
+    <string name="more">OBTER MAIS</string>
+    <string name="upcoming">ESTREIAS</string>
+
+    <string name="bomi1">O elenco é fantástico!</string>
+    <string name="bomi2">Tens bom gosto!</string>
+    <string name="bomi3">Adoro este realizador!</string>
+    <string name="bomi4">Este é super fixe!</string>
+    <string name="bomi5">O meu amigo adora este!</string>
+    <string name="bomi6">Os actores são óptimos!</string>
+    <string name="bomi7">Também quero ver!</string>
+
+</resources>

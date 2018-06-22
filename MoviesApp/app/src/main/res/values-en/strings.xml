@@ -1,0 +1,43 @@
+<resources>
+
+    <string name="textLanguage">en</string>
+
+    <string name="welcome_text">Welcome to</string>
+    <string name="continue_text">The best source for Movies and Series fanatics.
+        Please press the Continue Button and accept the permissions so you can check and
+        share all the info about your favorite screen time moments!</string>
+    <string name="main_menu">Choose a category!</string>
+
+    <string name="app_name">PANDAMOVIES</string>
+    <string name="online">Connection Found</string>
+    <string name="offline">No Internet Connection</string>
+
+    <string name="share_m_1">"The movie ""</string>
+    <string name="share_m_2">" has a classification of "</string>
+    <string name="share_m_3">" stars!"</string>
+    <string name="share_t_1">"The movie "</string>
+    <string name="share_t_2">" has a classification of "</string>
+    <string name="share_t_3">" stars!"</string>
+
+    <string name="share_btn">SHARE</string>
+    <string name="release_date">"Released on: "</string>
+    <string name="og_language">"Original Language: "</string>
+    <string name="updated">Last Updated:</string>
+    <string name="refresh">Content Updated</string>
+
+    <string name="movies">MOVIES</string>
+    <string name="tv">TV</string>
+    <string name="more">MORE</string>
+    <string name="upcoming">UPCOMING</string>
+
+
+    <string name="bomi1">This cast is awesome!</string>
+    <string name="bomi2">You have great taste!</string>
+    <string name="bomi3">I love the director!</string>
+    <string name="bomi4">This one is so cool!</string>
+    <string name="bomi5">My friend loves this!</string>
+    <string name="bomi6">The actors are great!</string>
+    <string name="bomi7">I want to see this too!</string>
+
+
+</resources>

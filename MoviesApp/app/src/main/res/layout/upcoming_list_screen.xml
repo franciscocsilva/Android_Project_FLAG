@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393939">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="#696969">
+
+        <ImageButton
+            android:src="@drawable/ic_home_black_24dp"
+            android:layout_margin="10dp"
+            android:padding="6dp"
+            android:id="@+id/upcoming_list_screen_home_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffbf00"
+            android:background="#393939"/>
+
+        <ImageButton
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp"
+            android:padding="6dp"
+            android:id="@+id/upcoming_list_screen_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffbf00"
+            android:background="#393939"/>
+
+        <TextView
+            android:id="@+id/upcoming_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true"/>
+
+        <TextView
+            android:id="@+id/upcoming_time_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/updated"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true"/>
+
+    </RelativeLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/upcoming_swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/upcoming_list_screen_items"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>
